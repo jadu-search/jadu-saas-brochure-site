@@ -5,7 +5,7 @@ module.exports = {
   pathPrefix: "/jadu-saas-brochure-site",
   siteMetadata: {
     title: `Jadu Digital - E-commerce Search Engine`,
-    siteUrl: `https://your-github-username.github.io/jadu-saas-brochure-site`
+    siteUrl: `https://ammarhaider7.github.io/jadu-saas-brochure-site`
   },
   plugins: ["gatsby-plugin-postcss", "gatsby-plugin-image", "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',
