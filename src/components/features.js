@@ -58,6 +58,24 @@ const Features = () => {
           </div>
         </div>
       </div>
+      <div className="py-16 bg-tertiary">
+        <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
+          <div className="md:w-1/2 mb-8 md:mb-0">
+            <h2 className="text-3xl font-bold mb-4 text-dark-navy">Onboarding process</h2>
+            <p className="text-lg text-gray-700">A structured 8-step workflow to get you up and running.</p>
+          </div>
+          <div className="md:w-1/2">
+            <StaticImage
+              src="../images/jadu-onboarding.png"
+              alt="Dynamic Search Listings Illustration"
+              placeholder="blurred"
+              layout="constrained"
+              width={600}
+              height={850}
+            />
+          </div>
+        </div>
+      </div>
     </section>
   )
 }
